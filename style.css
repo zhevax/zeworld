@@ -1,0 +1,147 @@
+body{
+    background: url(https://i.ibb.co/R3fhTLx/fondo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header{
+    background: black;
+    width: 100%;
+    top:0%;
+    left:0%;
+    position: fixed;
+}
+
+#cabeza{
+    text-align:center;
+    margin-top: 40px;
+    float:
+    top;
+}
+
+#esp{
+    float:
+    top;
+}
+
+#firma{
+    top: 10px;
+    left:30px;
+}
+
+nav {
+    float: right;
+}
+ 
+nav ul {
+    margin : 0 auto;
+    list-style : none;
+}
+
+#navegadores{
+    border-radius: 82px 82px 82px 82px; 
+    -moz-border-radius: 82px 82px 82px 82px; 
+    -webkit-border-radius: 82px 82px 82px 82px; 
+    -webkit-box-shadow: 8px 7px 37px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 7px 37px -2px rgba(0,0,0,0.75);
+    box-shadow: 8px 7px 37px -2px rgba(0,0,0,0.75);
+} 
+
+nav ul li {
+    float: left;
+}
+ 
+nav ul li a {
+    display : block;
+    margin-right : 40px;
+    margin-top: 10px;
+    width : 140px;
+    font-size : 20px;
+    line-height : 40px;
+    opacity: 0.5;
+}
+
+nav ul li a:hover {
+    color : #5E610B;
+    opacity: 1;
+}
+
+nav ul li.selected a {
+    opacity: 1;
+}
+
+#mainContent{
+    top:0%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align:center;
+    margin-left: 196px;
+    margin-right: 196px;
+
+}
+
+#imgcentro{
+    border-radius: 200px 200px 200px 200px; 
+    -moz-border-radius: 200px 200px 200px 200px; 
+    -webkit-border-radius: 200px 200px 200px 200px; 
+    border: 1px solid #000000;
+}
+
+#videouno{
+    border-radius: 200px 200px 200px 200px; 
+    -moz-border-radius: 200px 200px 200px 200px; 
+    -webkit-border-radius: 200px 200px 200px 200px; 
+    border: 15px solid #000000;
+}
+
+/*Footer*/
+footer {
+    color:white;
+    background: black;
+    bottom: :0%;
+    margin-left: 195px;
+    margin-right: 195px;
+}
+
+#textopie{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+/*redes sociales*/
+    .social {
+        position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+        right:0; /* Establecemos la barra en la izquierda */
+        top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+        z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+    }
+ 
+    .social ul {
+        list-style: none;
+    }
+ 
+    .social ul li a {
+        display: inline-block;
+        color:#fff;
+        background: #000;
+        padding: 10px 15px;
+        text-decoration: none;
+        -webkit-transition:all 500ms ease;
+        -o-transition:all 500ms ease;
+        transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+    }
+ 
+    .social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+    .social ul li .icon-twitter {background: #00abf0;}
+    .social ul li .icon-googleplus {background: #d95232;}
+    .social ul li .icon-pinterest {background: #ae181f;}
+    .social ul li .icon-mail {background: #666666;}
+ 
+    .social ul li a:hover {
+        background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+        /*padding:10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+    }
